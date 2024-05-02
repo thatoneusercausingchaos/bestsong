@@ -1,13 +1,38 @@
-body, pre {
-  font-family: Comic Sans MS;
+html, body {
+  font-family: "Comic Sans MS";
   text-align: center;
+  padding: 10px;
 }
 
-.space, pre {
+#heading {
+  margin-bottom: 50px;
+}
+
+pre {
   line-height: 2.0;
+  font-family: "Comic Sans MS";
 }
 
-a:link, a:visited {
-  color: #0000ee;
+audio {
+  display: block;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.button {
+  background-color: #04aa6d;
+  border: none;
+  color: white;
+  padding: 15px 32px;
   text-decoration: none;
+  display: block;
+  margin: auto;
+  width: 200px;
+  font-family: Arial,Sans-Serif;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #018C59;
 }
